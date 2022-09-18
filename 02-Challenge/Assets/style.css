@@ -1,0 +1,11 @@
+ol:hover .hyfr{
+    background-color: red;
+}
+
+.cool{
+    border:solid 1em black;
+}
+
+.cool:hover{
+    border: solid 2em red;
+}
