@@ -5,7 +5,8 @@
 }
 * {
   background-color: darkslategrey;
-  margin-right: 50px;
+  border: 0;
+  padding:0;
 }
 h1,
 h2 {
@@ -34,7 +35,8 @@ header{
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  background-color:red
+  background-color:red;
+  width: 100%;
 }
 .word {
   height: var(--1);
@@ -42,7 +44,6 @@ header{
   border: dotted white;
   padding: 1em;
   margin: 1em;
-  background-color: red;
 }
 .start {
   text-align: center;
@@ -51,3 +52,22 @@ header{
   margin-left: auto;
   margin-right: auto;
   margin-top: 1em;}
+
+.links{
+  display: block;
+  text-align: end;
+}
+
+
+
+
+  @media screen and (max-width: 992px) {
+    .box {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width:768){
+    .box{
+width: 25%;
+    }
+  }
