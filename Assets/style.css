@@ -117,7 +117,7 @@ a:hover {
 
 /*Gave the first project a larger box and emphasis*/
 .first {
-  width: 60%;
+  width: 63%;
   height: 200px;
   border: solid 5px black;
   text-align: center;
@@ -127,11 +127,13 @@ a:hover {
   transition: transform 0.2s;
 
 }
+
 .first:hover {
   background-color: grey;
   transform: scale(1.15);
 }
-.project-pics{
+
+.project-pics {
   height: auto;
   width: auto;
   align-content: right;
@@ -140,7 +142,8 @@ a:hover {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-.first-pic{
+
+.first-pic {
   height: auto;
   width: auto;
   display: block;
