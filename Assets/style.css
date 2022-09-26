@@ -117,15 +117,15 @@ a:hover {
 
 /*Gave the first project a larger box and emphasis*/
 .first {
-  width: 63%;
+  width: 90%;
   height: 200px;
   border: solid 5px black;
   text-align: center;
-  padding-left: 11em;
-  padding-right: 13.3em;
+  align-content: center;
+  padding-left: 1em;
+  padding-right: 1em;
   padding-top: 1em;
   transition: transform 0.2s;
-  align-content: center;
 
 }
 
