@@ -125,6 +125,7 @@ a:hover {
   padding-right: 13.3em;
   padding-top: 1em;
   transition: transform 0.2s;
+  align-content: center;
 
 }
 
