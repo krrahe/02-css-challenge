@@ -1,3 +1,4 @@
+/*colors i liked off the internet and basis of page */
 :root {
   --1: #d85c27;
   --2: #a96762;
@@ -7,11 +8,13 @@
   margin: 0;
   padding: 0;
 }
+/*push the links to the right and have some space between them*/
 nav {
   text-align: right;
   justify-content: space-around;
   padding-right: 5px;
 }
+/*Set the fonts i want and did my best to center items*/
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -46,6 +49,7 @@ footer {
 #me{
   float: left;
 }
+/*header padding and alignment*/
 .intro {
   text-align: center;
   padding-top: 1em;
@@ -55,6 +59,7 @@ footer {
   background-color: var(--3);
   display: flex;
 }
+/*make the boxes move with the page format*/
 .stuff {
   display: flex;
   flex-direction: row;
@@ -63,7 +68,7 @@ footer {
   padding-left: 7.5em;
   padding-right: auto;
 }
-
+/* Specifies the boxes and how pretty they are */
 .box {
   width: 30%;
   height: 250px;
@@ -75,8 +80,20 @@ footer {
     rgba(128, 128, 128, 0.6) 100%
   );
 }
-
+/*does the cool little pop out thing */
 .box:hover {
   transform: scale(1.25);
 background-image: var(--1);
+}
+
+a:link{
+  color: var(--3);
+}
+/*I think the blue clicked on looks weird and 90s*/
+a:visited{
+  color:black;
+}
+/*Made it change color to make it obv that it was a link*/
+a:hover{
+  color: white;
 }
